@@ -1,0 +1,17 @@
+# Build output
+build/
+cmake-build-*/
+out/
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# Editors / OS
+.vscode/
+.idea/
+.vs/
+*.swp
+.DS_Store
+compile_commands.json

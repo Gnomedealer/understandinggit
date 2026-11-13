@@ -1,0 +1,18 @@
+{
+  "name": "IntroComSciStuff",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-24.04",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ninja-build clang-format clang-tidy",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "xaver.clang-format"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "cmake.useCMakePresets": "always"
+      }
+    }
+  }
+}
